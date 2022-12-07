@@ -87,7 +87,17 @@ mark {
 }
 
 #text {
+    /* color: black;
+    font-weight: bold;
+    height: 30px;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    border: 1px solid rgb(1, 43, 1); */
+    padding-top: 25px;
+    padding-bottom: 25px;
+
     color: black;
+    font-size: x-large;
     /* font-weight: bold; */
     height: 30px;
     background-color: whitesmoke;
@@ -95,6 +105,8 @@ mark {
     border: 1px solid rgb(1, 43, 1);
 }
 #morse{
+    padding-top: 25px;
+    padding-bottom: 25px;
     color: black;
     font-size: x-large;
     /* font-weight: bold; */
