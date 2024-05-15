@@ -2,18 +2,14 @@ pipeline {
     agent any
     
     stages {
-        stage('Build') {
+        stage('version') {
             steps {
                 sh 'python --version' // Check Python version
             }
         }
-        stage('Test') {
+        stage('Output') {
             steps {
-            }
-        }
-        stage('Deploy') {
-            steps {
-                sh 'python temp.py' // Execute your Python script
+                sh 'python temp.py' // Run your tests here if available
             }
         }
     }
